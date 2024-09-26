@@ -13,6 +13,8 @@
 
         {{ __('You are logged in!') }}
       </div>
+      <!-- Botón para ir a la página de creación de empleados -->
+    <a href="{{ route('empleados.create') }}" class="btn btn-primary">Crear Empleado</a>
     </div>
   </div>
 </div>
